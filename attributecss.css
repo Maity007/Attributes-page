@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body-side{
+	background-color:aliceblue;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	width: 100%;
+}
+.ul-menu{
+	padding-right: 15px;
+	list-style-type: none;
+	list-style-position: inside;
+	border: #000000 1px solid;
+	background-color: #000000;
+}
+.li-items{
+	display: inline-block;
+	text-align: center;
+	color: aliceblue;
+	padding:15px;
+}
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.32%}
+.col-5{width: 41.65%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+[class*="col"]{
+	float: left;
+}
+a:link{
+	text-decoration: none;
+	color: inherit
+}
+a:active{
+	text-decoration: none;
+	color: inherit
+}
+a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+.div1{
+	text-align: left;
+	padding: 10px 0px 10px 60px;
+	margin: 0px;
+}
+.figure1{
+	background-color: aliceblue;
+	border:#000000 1px solid;
+	padding: 20px;
+	margin: 50px;
+	width: 60%;
+}
+.figure2{
+	background-color: #000000;
+	border:#000000 1px solid;
+	padding: 10px;
+	color: aliceblue;
+}
+.div-2{
+	border:#000000 1px solid;
+	padding: 10px;
+	background-color: #D0CFCF;
+}
